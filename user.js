@@ -8,6 +8,7 @@ class user {
     }
 
 };
+module.exports = user
 
 class paymentUser extends user {
     constructor(firstName,lastName,age,gender,interests,creditCard){
@@ -17,17 +18,12 @@ class paymentUser extends user {
 
 };
 
+module.exports = paymentUser
+
 class freeUser extends user{
     constructor(firstName,lastName,age,gender,interests){
         super(firstName,lastName,age,gender,interests)
     }   
 };
 
-class image{
-    constructor(img,fileName,uploadTime){
-        img=img.source //upload billede
-        fileName=fileName
-        uploadTime=uploadTime
-    }
-}
-
+module.exports = freeUser

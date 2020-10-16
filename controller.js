@@ -7,7 +7,7 @@ class controller {
 
 };
 
-class db {
+/*class db {
     getUser(id){
         var user = {
             name: "john",
@@ -15,7 +15,7 @@ class db {
         };
         return user;
     }
-}
+}*/
 
 /*Opgavens henblik er, at i får lavet et API som kan modtage og sende lidt data. 
 Den bagvedliggende struktur skal være klasser, men hvad der 
