@@ -7,6 +7,6 @@ let match3 = new match("user 3 matches with user 4");
 let match4 = new match("user 3 matches with user 4");
 
 
-matchArray=[match1, match2, match3, match4, match5];
+matchArray=[match1, match2, match3, match4];
 
 module.exports = matchArray
