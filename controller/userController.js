@@ -1,7 +1,3 @@
-/*import express from 'express';
-import user from '../model/user';
-const server = express();*/
-
 const userArray = require('./hardCodeUser');
 
 function userController(req,res) {
