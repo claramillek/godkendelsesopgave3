@@ -1,6 +1,5 @@
 class image{
-    constructor(img,fileName,uploadTime, size){
-        this.imgimg=img.source; //upload billede//
+    constructor(fileName,uploadTime, size){
         this.fileName=fileName;
         this.uploadTime=uploadTime;
         this.size=size;
